@@ -35,8 +35,6 @@ const makeIngredientsEl = ingredients => {
   });
 };
 
-
-
 const elements = makeIngredientsEl(ingredients);
 ingredientsEl.append(...elements);
 
